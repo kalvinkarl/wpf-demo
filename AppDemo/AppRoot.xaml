@@ -1,0 +1,16 @@
+﻿<Window x:Class="AppDemo.AppRoot"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppDemo"
+        mc:Ignorable="d"
+        Title="WPF Demo application" Height="450" Width="800">
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="40"/>
+    </WindowChrome.WindowChrome>
+    <Grid>
+        <Frame Name="TitlePage" Height="40" VerticalAlignment="Top"/>
+        <Frame x:Name="HomePage" Margin="0 40 0 0"/>
+    </Grid>
+</Window>
